@@ -1,4 +1,4 @@
-#include "math.h"
+#include "calc.h"
 
 // 实现除法
 double mydiv(int a, int b) {

@@ -1,4 +1,4 @@
-# Cmake教程：by爱编程的大丙
+# Cmake教程
 
 ## 章节目录
 * 00-hello_cmake
@@ -43,3 +43,6 @@ gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
 (base) ➜  cmake_tutorial gdb --version
 GNU gdb (Ubuntu 12.1-0ubuntu1~22.04.2) 12.1
 ```
+
+## 参考引用
+B站:爱编程的大丙

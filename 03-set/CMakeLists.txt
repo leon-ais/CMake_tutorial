@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 # 定义变量EXECUTABLE_OUTPUT_PATH，指定可执行文件的输出路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # 定义变量DIR_SRCS，包含src目录下所有的.cpp文件
+# aux_source_directory(${PROJECT_SOURCE_DIR}/src DIR_SRCS)
 file(GLOB DIR_SRCS ${PROJECT_SOURCE_DIR}/src/*.cpp)
 # 根据变量DIR_SRCS生成可执行文件calc
 add_executable(calc ${DIR_SRCS})

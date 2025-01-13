@@ -13,6 +13,8 @@ file(GLOB DIR_SRCS ${PROJECT_SOURCE_DIR}/src/*.cpp)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 # 根据变量DIR_SRCS生成可执行文件calc
 # add_executable(calc ${DIR_SRCS})
+# 指定库文件的输出路径
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 # 生成动态库
 add_library(calc_dynamic SHARED ${DIR_SRCS})
 # 生成静态库

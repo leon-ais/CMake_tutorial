@@ -1,4 +1,4 @@
-# Cmake教程
+# CMake教程
 
 ## 章节目录
 * 00-hello_cmake
